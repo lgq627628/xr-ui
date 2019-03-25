@@ -25,6 +25,7 @@ export default {
   line-height: 100px;
   border-radius: 50%;
   font-size: 30px;
+  text-align: center;
   background: #24292e;
   color: white;
 }
