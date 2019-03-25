@@ -1,4 +1,3 @@
-// 导入颜色选择器组件
 import XrTest from './test'
 // 存储组件列表
 const components = [
@@ -11,6 +10,7 @@ const install = function (Vue) {
   install.installed = true
   // 遍历注册全局组件
   components.map(component => Vue.component(component.name, component))
+  // 下面这个写法也可以
   // components.map(component => Vue.use(component))
 }
 
