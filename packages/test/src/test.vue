@@ -1,5 +1,5 @@
 <template>
-  <div class="test" @click="handleClick">{{ num }}</div>
+  <div class="xr-test" @click="handleClick">{{ num }}</div>
 </template>
 
 <script>
@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.test {
+.xr-test {
   width: 100px;
   height: 100px;
   line-height: 100px;

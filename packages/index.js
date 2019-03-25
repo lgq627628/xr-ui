@@ -1,15 +1,14 @@
 // 导入颜色选择器组件
-import test from './test'
+import XrTest from './test'
 // 存储组件列表
 const components = [
-  test
+  XrTest
 ]
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册
 const install = function (Vue) {
   // 判断是否安装
-  console.log('0000', install)
-  console.log('0000', install.installed)
   if (install.installed) return
+  install.installed = true
   // 遍历注册全局组件
   components.map(component => Vue.component(component.name, component))
   // components.map(component => Vue.use(component))
@@ -24,5 +23,5 @@ export default {
   // 导出的对象必须具有 install，才能被 Vue.use() 方法安装
   install,
   // 以下是具体的组件列表
-  test
+  ...components
 }

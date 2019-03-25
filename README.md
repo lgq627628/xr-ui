@@ -1,29 +1,17 @@
 # xr-ui
+基于 vue-cli3 的 UI 组件库
 
-## Project setup
+## Install
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
+npm install xr-ui -S
 ```
 
-### Compiles and minifies for production
+## Usage
 ```
-yarn run build
+import XrUI from 'xr-ui'
+Vue.use(XrUI)
 ```
-
-### Run your tests
+在项目中使用
 ```
-yarn run test
+<xr-test></xr-test>
 ```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

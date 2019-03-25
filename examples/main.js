@@ -5,11 +5,8 @@ import store from './store'
 // 导入组件库
 import XrUI from './../packages'
 // 注册组件库
-XrUI.install(Vue)
-// console.log(xx)
-// install(Vue)
-// console.log(Vue)
-console.log(XrUI.install.installed)
+Vue.use(XrUI)
+// XrUI.install(Vue)
 
 Vue.config.productionTip = false
 
