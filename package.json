@@ -1,7 +1,7 @@
 {
   "name": "xr-ui",
   "version": "0.3.0",
-  "description": "基于vue-cli3的UI库",
+  "description": "基于 vue-cli3 的 UI 组件库",
   "main": "lib/xr-ui.umd.min.js",
   "keywords": "xr-ui",
   "private": false,
@@ -10,7 +10,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name xr-ui --dest lib packages/index.js"
+    "build:entry": "node build/build-entry.js",
+    "lib": "vue-cli-service build --target lib --name xr-ui --dest lib packages/index.js",
+    "build:lib": "node build/build-lib.js"
   },
   "dependencies": {
     "vue": "^2.6.6",
@@ -28,6 +30,10 @@
     "fibers": "^3.1.1",
     "sass": "^1.17.2",
     "sass-loader": "^7.1.0",
+    "shelljs": "^0.8.3",
+    "signale": "^1.4.0",
+    "uppercamelcase": "^3.0.0",
+    "vue-markdown-loader": "^2.4.1",
     "vue-template-compiler": "^2.5.21"
   },
   "repository": {
