@@ -46,5 +46,6 @@
   "repository": {
     "type": "git",
     "url": "git+git@github.com:lgq627628/xr-ui.git"
-  }
+  },
+  "homepage": "https://lgq627628.github.io/xr-ui"
 }

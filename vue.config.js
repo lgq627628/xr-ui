@@ -49,6 +49,8 @@ const vueMarkdown = {
 }
 
 module.exports = {
+  // 切记，使用 gh-pages 自动发布要设置 publicPath，以及 hash 路由模式
+  publicPath: '',
   pages: {
     index: {
       entry: 'examples/main.js',
