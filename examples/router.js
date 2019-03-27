@@ -28,6 +28,8 @@ let addComponent = router => {
 }
 addComponent(routes)
 let availableRoutes = routes.filter(item => item.path)
+console.log(availableRoutes)
 export default new Router({
+  mode: 'hash',
   routes: availableRoutes
 })

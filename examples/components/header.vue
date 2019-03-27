@@ -5,7 +5,7 @@
     :style="$route.name === 'index' ? 'box-shadow:none' : 'box-shadow:0 10px 60px 0 rgba(29,29,31,0.07)'"
   >
     <div class="header-container">
-      <a href="https://github.com/Eamonnzhang/vue-cards" target="__blank">
+      <a href="https://github.com/lgq627628/xr-ui" target="__blank">
         <span class="name">XrUI</span>
       </a>
     </div>

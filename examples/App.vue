@@ -27,13 +27,6 @@ export default {
       isMobileShow: false
     }
   },
-  watch: {
-    $route (to, from) {
-      // if (to.path === '/') {
-      //   router.push({ name: 'introduce' })
-      // }
-    }
-  },
   mounted () {
     if ('onhashchange' in window) {
       window.onhashchange = function (ev) {
