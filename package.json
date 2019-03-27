@@ -12,6 +12,7 @@
     "lint": "vue-cli-service lint",
     "build:entry": "node build/build-entry.js",
     "lib": "vue-cli-service build --target lib --name xr-ui --dest lib packages/index.js",
+    "build:theme": "gulp build --gulpfile packages/theme-chalk/gulpfile.js && cp-cli packages/theme-chalk/lib lib/theme-chalk",
     "build:docs": "vue-cli-service build",
     "publish:docs": "node build/publish-docs.js",
     "build:lib": "node build/build-lib.js"
@@ -27,6 +28,7 @@
     "@vue/cli-service": "^3.5.0",
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.1",
+    "cp-cli": "^2.0.0",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "fibers": "^3.1.1",

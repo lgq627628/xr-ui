@@ -11,6 +11,7 @@ const signale = require('signale')
 const { Signale } = signale
 const tasks = [
   'build:entry',
+  'build:theme',
   'lib'
 ]
 
