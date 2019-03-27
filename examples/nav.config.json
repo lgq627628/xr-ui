@@ -1,0 +1,38 @@
+{
+  "开发指南": [
+    {
+      "name": "introduce",
+      "path": "/introduce",
+      "desc": "介绍"
+    },
+    {
+      "name": "start",
+      "path": "/start",
+      "desc": "快速上手"
+    },
+    {
+      "name": "logs",
+      "path": "/logs",
+      "desc": "更新日志"
+    },
+    {
+      "name": "contribute",
+      "path": "/contribute",
+      "desc": "开发指南"
+    }
+  ],
+  "组件": [
+    {
+      "desc": "基础组件",
+      "isMobile": "1",
+      "items": [
+        {
+          "desc": "test 组件",
+          "isMobile": "1",
+          "name": "test",
+          "path": "/test"
+        }
+      ]
+    }
+  ]
+}
